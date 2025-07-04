@@ -1,0 +1,28 @@
+{
+  "name": "somnia-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnfdm/somnia-verifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hnfdm/somnia-verifier/issues"
+  },
+  "homepage": "https://github.com/hnfdm/somnia-verifier#readme",
+  "devDependencies": {
+    "netlify-cli": "^22.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "ethers": "^6.15.0"
+  }
+}
