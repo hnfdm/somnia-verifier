@@ -3,3 +3,9 @@
 
 [dev]
   functions = "netlify/functions"
+
+[[redirects]]
+  from       = "/verify-player/:splat"
+  to         = "/.netlify/functions/verify-player/:splat"
+  status     = 200
+  force      = true
